@@ -1,0 +1,29 @@
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+ehthumbs.db
+
+# Editor swap/temp files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Secrets — NEVER commit these
+.env
+.env.*
+.env.local
+
+# DropClaw per-machine config (do not sync machine-specific paths)
+config
+
+# Common build/dependency artifacts
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+dist/
+build/
+*.log
